@@ -23,7 +23,7 @@ public class CrosshairController : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Shoot");
 
         Duck[] ducks = FindObjectsOfType<Duck>(); 
-
+        
         foreach(Duck duck in ducks)
         {
             float distance = Vector3.Distance(transform.position, duck.transform.position);

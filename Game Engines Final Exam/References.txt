@@ -1,0 +1,10 @@
+Used Assets:
+
+Game Engines Assignment 4:
+- DLL
+- Singleton
+- Object Pool
+
+References:
+Sound: https://www.youtube.com/watch?v=f53fti1kwgc
+Background Image: https://www.google.com/search?q=cartoon+grassy+landscape++background&tbm=isch&ved=2ahUKEwiNzJTb2Ov0AhV8rHIEHYD0DegQ2-cCegQIABAA&oq=cartoon+grassy+landscape++background&gs_lcp=CgNpbWcQAzoGCAAQCBAeULcGWN4MYMENaABwAHgAgAFriAH4BZIBAzguMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=p_W8Yc3cJvzYytMPgOm3wA4&bih=1211&biw=2400&rlz=1C1CHBF_enCA862CA862#imgrc=pxaiWm9PCk1hTM

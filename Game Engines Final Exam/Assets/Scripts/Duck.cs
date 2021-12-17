@@ -5,7 +5,7 @@ using UnityEngine;
 public class Duck : MonoBehaviour
 {
     [SerializeField] float speed = 1;
-
+    
     float timeToDirectionChange = 1.5f;
     float changeDelay = 2;
 
