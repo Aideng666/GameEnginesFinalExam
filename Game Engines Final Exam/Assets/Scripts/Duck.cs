@@ -29,12 +29,15 @@ public class Duck : MonoBehaviour
         if (!GetComponent<Renderer>().isVisible)
         {
             KillDuck();
+            FindObjectOfType<Lives>().LoseLife();
         }
     }
 
     public void KillDuck()
     {
         DuckPool.Instance.AddToPool(gameObject);
+
+        Score.Instance.AddScore(Score.Instance.GetScorePerDuck());
     }
 
     bool CanChangeDirection()

@@ -29,6 +29,15 @@ public class CrosshairController : MonoBehaviour
             if (distance < 1)
             {
                 duck.KillDuck();
+
+                if (Score.Instance.GetScorePerDuck() < 1000)
+                {
+                    Score.Instance.SetScorePerDuck(Score.Instance.GetScorePerDuck() * 2);
+                }
+            }
+            else
+            {
+                Score.Instance.SetScorePerDuck(Score.Instance.GetScorePerDuck() / 2);
             }
         }
     }
