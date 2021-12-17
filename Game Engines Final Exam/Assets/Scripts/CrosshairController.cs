@@ -20,6 +20,8 @@ public class CrosshairController : MonoBehaviour
 
     void Shoot()
     {
+        FindObjectOfType<AudioManager>().Play("Shoot");
+
         Duck[] ducks = FindObjectsOfType<Duck>(); 
 
         foreach(Duck duck in ducks)
